@@ -9,8 +9,9 @@ import java.util.ArrayList;
 
 /**
  *
- * @author alecu
+ * @author Cuomo Alessandro
  */
+ 
 class GestoreMex {
     private String messaggio;
     
