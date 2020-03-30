@@ -17,11 +17,13 @@ import javax.xml.bind.Marshaller.Listener;
  *
  * @author Cuomo Alessandro
  */
+ 
 public class ClientTCP {
 
     /**
      * @param args the command line arguments
      */
+     
     public static void main(String[] args) {
         // TODO code application logic here
         String host = "127.0.0.1";
@@ -40,7 +42,7 @@ public class ClientTCP {
                 System.out.println("Connessione fallita con: ");
             }
             
-            PrintWriter out = new PrintWriter(socketClient.getOutputStream(), true); // connessione al socket (in uscita client --> server)
+            PrintWriter out = new PrintWriter(socketClient.getOutputStream(), true); // connessione al socket
             
             // Connessione al BufferedReader per inserire il testo
             BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
